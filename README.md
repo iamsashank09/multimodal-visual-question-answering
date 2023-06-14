@@ -15,7 +15,15 @@ Example 2:
 1) Download our best performing model checkpoint from [here](https://github.com/iamsashank09/multimodal-visual-question-answering/blob/main/models/best_val.model) and place in: 
 
 		models/
+2) Download the CLEVR dataset from [here](https://cs.stanford.edu/people/jcjohns/clevr/), we've used CLEVR v1.0 Main (Not CoGenT), place the data in:
+		
+		CLEVR_v1.0/
+			images/
+			questions/
+	
+	If you want to instead try it on a simpler, smaller datatset you can try [EasyVQA](https://github.com/vzhou842/easy-VQA), which has only 13 classes. The code and process remains the same. 
 
-2) Run *[multimodel-clevr-public.py](https://github.com/iamsashank09/multimodal-visual-question-answering/blob/main/multimodel-clevr-public.py "multimodel-clevr-public.py")* which is in the project root folder. (Make sure all the requirements are installed).
+3) Run *[multimodel-clevr-public.py](https://github.com/iamsashank09/multimodal-visual-question-answering/blob/main/multimodel-clevr-public.py "multimodel-clevr-public.py")* which is in the project root folder:
+(Make sure all the requirements are installed)
 
 	    python multimodel-clevr-public.py
